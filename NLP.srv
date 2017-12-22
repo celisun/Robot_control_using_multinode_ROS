@@ -1,0 +1,7 @@
+# This is a service definition file,
+# input words of type string
+# output angle of type float
+
+string words
+---
+float32 angle
