@@ -1,0 +1,14 @@
+<launch>
+	
+	<node pkg="turtlebot3_console_controller" type="console_reader.py" name="console_reader" output="screen">
+	</node>
+
+	<node pkg="turtlebot3_console_controller" type="main.py" name="main" output="screen">
+	</node>
+
+	<node pkg="turtlebot3_console_controller" type="motion_action_server.py" name="motion_action_server" output="screen">
+	</node>
+
+	<node pkg="turtlebot3_console_controller" type="NLP_server.py" name="NLP_server" output="screen">
+	</node>
+</launch>
