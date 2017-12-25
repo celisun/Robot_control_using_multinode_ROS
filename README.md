@@ -2,9 +2,12 @@
 ## ROS Console Controller
 This is a practice of writing multiple nodes with communicates via main using three ROS techniques: topic, action and service. The three nodes are defined as 'nlp_server', 'console_reader' and 'motor_action_server'.
 
-- **'console_reader'**: read inputs from the user and publish through message to the Main 
-- **'nlp_server'**: a simple NLP service to take a string as input, e.g. "turn 361" and return an float after string processing, e.g. "-1"
-- **'motor_action_server'**: publish messages to turtlebot about motor action to take, e.g. spin -90 degrees
+- **'Main'**: the main coordinator, listens to console reader for user input, can invoke NLP service for input processing, and can send goals to action server for turtlebot mission 
+- **'console_reader'**: read inputs from the user and publish through message to the Main node
+- **'nlp_server'**: a simple NLP service node to take a string as input when invoked by the Main, e.g. "turn 361" and return an float e.g. "-1"
+- **'motor_action_server'**: publish action mission to turtlebot about motor action to take, e.g. spin -90 degrees, and print out the feedback during the mission, such as the time consumed and angles left
+
+The strcuture of the communication of the nodes can be described as below: 
 
 <img src="https://raw.githubusercontent.com/celisun/CourseExemplary_ROSConsoleController/master/multi-node_structure_sketch.png" width="650">
 
