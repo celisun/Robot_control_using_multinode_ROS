@@ -5,7 +5,7 @@ This is a practice of writing multiple nodes with communicates via main using th
 
   'nlp_server' <---- service --->   main   <--- topic --->  'console_reader'
 
-                                    (main)  <----action- --> 'motion_action_server'
+                                    <----action- --> 'motion_action_server'
                                     
 
   
