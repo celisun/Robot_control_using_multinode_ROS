@@ -2,11 +2,7 @@
 ## ROS Console Controller
 This is a practice of writing multiple nodes with communicates via main using three ROS techniques: topic, action and service. Our three nodes are nlp_server, console_reader and motor_action_server.
 
-
-  'nlp_server' <---- service --->   main   <--- topic --->  'console_reader'
-
-                                    <----action- --> 'motion_action_server'
-                                    
+<img src="https://raw.githubusercontent.com/celisun/CourseExemplary_ROSConsoleController/master/multi-node_structure_sketch.png" width="650">
 
   
 
