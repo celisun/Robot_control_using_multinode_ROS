@@ -1,5 +1,5 @@
 
-## ROS Console Controller
+## ROS Multinode Control
 This is a practice to write multiple nodes communicating using the three major ROS functions: topic, action and service. The nodes defined as 'nlp_server', 'console_reader' and 'motor_action_server' in this task, are collaborating through the main in reading the human user's inputs and manipulating the turtlebot accordinly.
 
 - **'main'**: the main coordinator, listens to console reader for user input, can invoke NLP service for input processing, and can send goals to action server for turtlebot mission 
