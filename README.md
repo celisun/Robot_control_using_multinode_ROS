@@ -1,6 +1,6 @@
 
 ## ROS Multinode Control
-Exemplary code for CS 117a Autonomous Robotics Lab 
+Exemplary code Autonomous Robotics Lab 
 
 @ Celi Sun @ Nov, 2017 @ Brandeis university 
 
