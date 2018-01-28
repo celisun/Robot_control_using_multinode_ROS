@@ -4,7 +4,7 @@ Exemplary code Autonomous Robotics Lab
 
 @ Celi Sun @ Nov, 2017 @ Brandeis university 
 
-This is a practice to write multiple nodes communicating using the three major ROS functions: topic, action and service, to complete a simple task of asking-turtlebot-to-spin. The three nodes *nlp_server*, *console_reader* and *motor_action_server* are collaborating via the main, by reading the human user's inputs on condole, prcessing the reading and manipulating the turtlebot accordinly.
+This is a practice to write multiple nodes communicating using the three major ROS functions: topic, action and service, to complete a simple task of asking-turtlebot-to-spin. The three nodes *nlp_server*, *console_reader* and *motor_action_server* are collaborating via the main, by reading the human user's inputs on condole, prcessing the reading and manipulating the turtlebot (to do the spinning to a certain degree) accordinly.
 
 Nodes:
 
