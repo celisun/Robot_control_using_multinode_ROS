@@ -17,7 +17,7 @@ This is a practice to write multiple nodes communicating using the three major R
 
 <img src="https://raw.githubusercontent.com/celisun/CourseExemplary_ROSConsoleController/master/multi-node_structure_sketch.png" width="650">
 
-<img src="https://raw.githubusercontent.com/celisun/Human_robot_via_Multinode_ROS_/master/TB3-model.png" width="650">  
+<img src="https://raw.githubusercontent.com/celisun/Human_robot_via_Multinode_ROS_/master/TB3-model.png" width="170">  
 
 ## Dependencies
 
@@ -25,7 +25,7 @@ This is a practice to write multiple nodes communicating using the three major R
 * python
  
 ****
-## Run this solution on your labtop
+### Run this solution on your labtop
 You can clone this repository from git to your own workspace by:
 ```
 $ cd ~/catkin_ws/src
