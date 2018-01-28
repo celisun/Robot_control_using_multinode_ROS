@@ -19,7 +19,14 @@ This is a practice to write multiple nodes communicating using the three major R
 
   
 
+## Dependencies
+
+* ros kinetics
+* python
+* numpy
+
 ## 
+
 ### Run this solution on your labtop
 You can clone this repository from git to your own workspace by:
 ```
