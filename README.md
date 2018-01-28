@@ -13,7 +13,7 @@ This is a practice to write multiple nodes communicating using the three major R
 - **nlp_server**: a simple NLP service node to take a string as input when invoked by the Main, e.g. "turn 361" and return an float e.g. "-1"
 - **motor_action_server**: publish action mission to turtlebot about motor action to take, e.g. spin -90 degrees, and print out the feedback during the mission, such as the time consumed and angles left
 
-**The strcuture of communication between nodes can be described as below: **
+**The strcuture of communication between nodes can be described as below:**
 
 <img src="https://raw.githubusercontent.com/celisun/CourseExemplary_ROSConsoleController/master/multi-node_structure_sketch.png" width="650">
 
